@@ -1,0 +1,6 @@
+# Where Terraform keeps state for test. Replace the bucket with your state bucket in account 426674444186.
+bucket       = "REPLACE_WITH_STATE_BUCKET"
+key          = "perkins/datadog-log-forwarding/test.tfstate"
+region       = "us-east-1"
+encrypt      = true
+use_lockfile = true # S3-native state locking (Terraform 1.10+). Use dynamodb_table instead on older versions.

@@ -1,0 +1,15 @@
+# Terraform working files
+.terraform/
+.terraform.lock.hcl.bak
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Built by the module on every plan
+datadog-forwarder-placeholder.zip
